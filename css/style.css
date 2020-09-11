@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body,body#safety .card,body#safety .card-header,body#delivery .card, #mat .card{
+  background: rgb(249, 246, 241);
+  font-family: 'Open Sans', sans-serif;
+}
+.open{
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: rgb(221, 224, 179);
+}
+.navbar-brand{
+ font-size: 1.3rem;
+}
+.card-header,.navbar-brand{
+  font-style: italic;
+}
+.navbar, .btn,footer>.navbar-light .navbar-brand{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.mt_50{
+  margin-top:50px;
+}
+.gamburger{
+  background-color: transparent;
+  width: 70px;
+  height: 40px ;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+.burger{
+  display: block;
+  transition: all 0.1s;
+  width: 38px;
+  margin: 3px;
+  height: 2px;
+  background-color: rgb(24, 22, 22);
+}
+.navbar-light .navbar-toggler{
+  border:1px solid rgb(24, 22, 22);
+}
+button:focus{
+  outline: none;
+}
+.navbar-light .navbar-toggler:hover{
+  cursor: pointer;
+  border:1px solid rgb(244, 229, 190);
+}
+.first{
+  transform: translate(5px, -6px) rotate(45deg);
+  transform-origin: left top;
+}
+.middle{
+  transform: scale(0);
+}
+.last{
+  transform: translate(-6px, -22px) rotate(-45deg);
+  transform-origin: right bottom;
+}
+.btn {
+  transition: none;
+}
+.btn:hover {
+  background-color: rgb(244, 229, 190);
+  }
+.btn:hover, .btn:active {
+  border-radius: 2.25rem;
+}
+.btn:focus, .btn:hover, .btn:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.modal-header {
+  background-color: rgb(221, 224, 179);
+}
+.modal-footer {
+  background-color: rgb(244, 229, 190);
+}
+.modal-body{
+  background: rgb(249, 246, 241);
+  font-size: 1.2rem;
+}
+.modal-footer>.btn{
+    background-color: rgb(221, 224, 179);
+    color:rgb(134, 131, 122);
+    outline: none;
+    border:none;
+    border-radius: 2rem;
+    font-size: 1rem;
+  }
+.modal-footer>.btn:hover {
+  background-color: rgb(221, 224, 179);
+  color:rgb(16, 16, 17);
+  }
+
+#main .card {
+  border: none;
+  font-weight: 700;
+  line-height: 1.2;
+  border:1px solid rgb(249, 246, 241);
+}
+.fs_2rem{
+  font-size: 2rem;
+}
+#delivery .card{
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+}
+#delivery h1, #delivery h2{
+  font-size: 1.5rem;
+}
+
+.card a, .card a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.card:hover{
+  border:1px solid rgb(158, 151, 158);
+}
+.card img {
+  height: auto;
+}
+.pt-10 {
+  padding-top: 0;
+}
+.mh-550 {
+  min-height: 0px;
+}
+.mt-100 {
+  margin-top: 20px;
+}
+.b-g_block{
+  background: rgb(249, 246, 241);
+}
+footer{
+  background-color: rgb(244, 229, 190);
+  padding: 15px 0;
+}
+footer .btn:hover {
+  background-color:rgb(221, 224, 179);
+  }
+body#safety>footer .navbar-brand,body#delivery>footer .navbar-brand,body#mat>footer .navbar-brand{
+  color: rgb(15, 14, 14);
+  font-weight: 700;
+}
+body#safety .card{
+  font-weight: 500;
+}
+body#safety .card-header{
+  border:none;
+}
+.mb-100{
+  margin-bottom: 100px;
+}
+.fc_pink{
+  color:rgb(249, 51, 242);
+}
+@media (min-width: 576px) {
+  .mh-550 {
+    min-height: 550px;
+  }
+  .mt-100 {
+    margin-top: 100px;
+  }
+  .navbar {
+    font-size: 1.5rem;
+  }
+  .pt-10 {
+    padding-top: 10%;
+  }
+  #main .card {
+    font-size: 3rem;
+  }
+  body#safety .card {
+    font-size: 1rem;
+  }
+    }
+  footer .btn {
+    font-size: 1.2rem;
+  }
+}

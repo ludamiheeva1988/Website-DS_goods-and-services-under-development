@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Доставка и оплата</title>
+</head>
+<body id="delivery">
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#prodact">DESIGN & PRACTICALITY</a>
+        <button class="gamburger navbar-toggler float-sm-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+          <span class="burger"></span>
+          <span class="burger"></span>
+          <span class="burger"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
+          <ul class="navbar-nav w-100 justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link btn" href="index.html#prodact">Товары и услуги<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" data-toggle="modal" data-target="#exampleModalCenter" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn" href="#">Доставка и оплата</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Контакты</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <address>
+              <p><b>+38(098)869-00-71 <em>(Viber)(telegram)</em></b> </p>
+              <p><a href="#"><b>bees127@ukr.net</b></a></p>
+            </address>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <section class="mb-100">
+    <div class="container">
+      <div class="card mt-100" style="width: 100%;">
+        <div class="card-body">
+          <h1 class="card-title mb-4">Доставка и оплата</h1>
+          <h2 class="card-subtitle mb-2 mt-4"><b>Способы доставки:</b></h2>
+          <p class="card-text">-&emsp;Укрпочта;</p>
+          <p class="card-text">-&emsp;Новая почта.</p>
+          <h2 class="card-subtitle mb-2 mt-4"><b>Способы оплаты:</b></h2>
+          <p class="card-text">-&emsp;на карту Приватбанка;</p>
+          <p class="card-text">-&emsp;наложенный платеж при получении почтой.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container d-block text-center d-sm-flex justify-content-between align-items-center">
+            <a class="navbar-brand align-middle" href="#">DESIGN & PRACTICALITY</a>
+            <p class="navbar-brand align-middle mb-0">+38 098 869 00 71</p>
+    </div>
+  </footer>
+  <script>
+    $('.gamburger').click(function() {
+      $('span.burger:nth-child(1)').toggleClass('first');
+      $('span.burger:nth-child(2)').toggleClass('middle');
+      $('span.burger:nth-child(3)').toggleClass('last');
+    });
+  </script>
+</body>
